@@ -1,4 +1,4 @@
-from telegram import Update
+import telebot
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 RATE = 85
